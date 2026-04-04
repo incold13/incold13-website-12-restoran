@@ -7,7 +7,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-/*asdasdaasdadsasdasdasdsd*/
+
 header {
   width: 100vw;
   height: 30vh;
@@ -212,4 +212,65 @@ header nav .header_all .header_shoplog .header_shoplog_button {
   font-weight: 600;
   cursor: pointer;
   border: none;
+}
+
+.menu {
+  width: 99.2vw;
+  height: 170vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.menu .menu_all {
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu .menu_all .menu_text_main {
+  font-family: "Tinos", serif;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #311F09;
+  height: 20vh;
+}
+.menu .menu_all .menu_buttons {
+  display: flex;
+  gap: 1.32vw;
+}
+.menu .menu_all .menu_buttons button {
+  width: 11.4vw;
+  height: 7.2vh;
+  background-color: rgba(208, 204, 199, 0.1);
+  border-radius: 162.94px;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #311F09;
+  border: none;
+  transition: 0.3s ease;
+}
+.menu .menu_all .menu_buttons button:hover {
+  background-color: #311F09;
+  color: #FFFFFF;
+}
+.menu .menu_all .menu_card_all_rows {
+  display: flex;
+  flex-direction: column;
+}
+.menu .menu_all .menu_card_all_rows .menu_card_one_rows {
+  display: flex;
+  flex-direction: row;
+}
+.menu .menu_all .menu_card_all_rows .menu_card_one_rows .menu_card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.menu .menu_all .menu_card_all_rows .menu_card_two_rows {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=style.css.map */
