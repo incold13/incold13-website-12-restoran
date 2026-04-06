@@ -259,7 +259,7 @@ header nav .header_all .header_shoplog .header_shoplog_button {
 }
 .menu .menu_all .menu_card_all_rows {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 .menu .menu_all .menu_card_all_rows .menu_card_one_rows {
   display: flex;
@@ -269,6 +269,13 @@ header nav .header_all .header_shoplog .header_shoplog_button {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.menu .menu_all .menu_card_all_rows .menu_card_one_rows .menu_card .menu_block1 p {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #311F09;
 }
 .menu .menu_all .menu_card_all_rows .menu_card_two_rows {
   display: flex;

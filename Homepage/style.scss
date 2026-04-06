@@ -258,8 +258,7 @@ header {
         }
         .menu_card_all_rows {
             display: flex;
-            flex-direction: column;
-
+            flex-wrap: wrap;
             .menu_card_one_rows {
                 display: flex;
                 flex-direction: row;
@@ -268,8 +267,12 @@ header {
                     display: flex;
                     align-items: center;
                     flex-direction: column;
-                    .menu_card_text_name {
-
+                    .menu_block1 p {
+                        display: flex;
+                        align-items: center;
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 600;
+                        color: #311F09;
                     }
                     .menu_card_text_opi {
 
