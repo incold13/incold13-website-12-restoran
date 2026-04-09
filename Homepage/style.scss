@@ -267,6 +267,10 @@ header {
                     display: flex;
                     align-items: center;
                     flex-direction: column;
+                    .menu_img_main {
+                        width: 270px;
+                        height: 270px;
+                    }
                     .menu_block1 p {
                         display: flex;
                         align-items: center;
