@@ -217,7 +217,7 @@ header {
 }
 .menu {
     width: 99.2vw;
-    height: 170vh;
+    height: 190vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,33 +262,140 @@ header {
             .menu_card_one_rows {
                 display: flex;
                 flex-direction: row;
-                
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                width: 60vw;
+                gap: 1vw;
                 .menu_card {
-                    display: flex;
-                    align-items: center;
-                    flex-direction: column;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                width: 344px;
+                height: 600px;
                     .menu_img_main {
                         width: 270px;
                         height: 270px;
                     }
-                    .menu_block1 p {
+                    .menu_block1 {
                         display: flex;
+                        justify-content: center;
                         align-items: center;
+                        flex-direction: column;
+                    }
+                    .menu_block1 p {
+                        height: 4vh;
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                        font-size: 1.87rem;
+                        align-items: end;
                         font-family: "Poppins", sans-serif;
                         font-weight: 600;
                         color: #311F09;
                     }
-                    .menu_card_text_opi {
-
+                    .menu_block1 img {
+                        width: 164px;
+                        height: 5.5vh;
+                        align-items: center;
+                        display: flex;
                     }
-                    .menu_card_rows {
-
+                    .menu_text_nomain {
+                        font-size: 0.875rem;
+                        font-family: "Poppins", sans-serif;
+                        color: #59442B;
+                        width: 85%;
+                        height: 10vh;
+                    }
+                    .menu_sell_block {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 80%;
+                        .menu_sell_block_text {
+                            font-family: "Poppins", sans-serif;
+                            font-size: 1.563rem;
+                            font-weight: 600;
+                        }
+                        .menu_sell_block_button {
+                            font-size: 1rem;
+                            color: #FFFFFF;
+                            width: 156px;
+                            height: 55px;
+                            border: 0;
+                            border-radius: 163px;
+                            background-color: #FF8A00;
+                            font-weight: 600;
+                            cursor: pointer;
+                            font-family: "Poppins", sans-serif;
+                        }
                     }
                 }
             }
-            .menu_card_two_rows {
+        }
+        .menu_footer {
+            width: 21.23vw;
+            height: 10vh;
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+            .menu_footer_arrow {
+                width: 55px;
+                height: 55px;
+                background-color: #311F09;
+                border-radius: 15px;
+                align-items: center;
+            }
+            .menu_footer_button {
+                width: 55px;
+                height: 55px;
+                border: 0;
+                color: #FF8A00;
+                font-weight: 600;
+                cursor: pointer;
+                font-size: 0.88rem;
+                font-family: "Poppins", sans-serif;
+            }
+            .menu_footer_button1 {
+                width: 55px;
+                height: 55px;
+                border: 0;
+                color: #B7A28B;
+                font-weight: 600;
+                cursor: pointer;
+                font-size: 1rem;
+                font-family: "Poppins", sans-serif;
+            }
+        }
+    }
+}
+.reserve {
+    height: 100vh;
+    width: 99.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .reserve_all {
+        width: 75vw;
+        display: flex;
+        flex-direction: row;
+        .reserve_img_block {
+            width: 660px;
+            flex-direction: column;
+            display: flex;
+            .reserve_img_block1 {
                 display: flex;
-                flex-direction: row;
+                justify-content: end;
+            }
+            .reserve_img_block2 {
+                display: flex;
+                justify-content: center;
+            }
+            .reserve_img_block3 {
+                display: flex;
+                justify-content: start;
             }
         }
     }
