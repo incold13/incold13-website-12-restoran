@@ -238,6 +238,8 @@ header {
         .menu_buttons {
             display: flex;
             gap: 1.32vw;
+            align-items: start;
+            height: 12vh;
             button {
                 width: 11.4vw;
                 height: 7.2vh;
@@ -266,7 +268,7 @@ header {
                 align-items: center;
                 justify-content: center;
                 width: 60vw;
-                gap: 1vw;
+                gap: 1.5vw;
                 .menu_card {
                 display: flex;
                 align-items: center;
@@ -274,7 +276,9 @@ header {
                 justify-content: center;
                 text-align: center;
                 width: 344px;
-                height: 600px;
+                height: 580px;
+                border-radius: 70px;
+                background-color: rgb(208, 204, 199, 10%);
                     .menu_img_main {
                         width: 270px;
                         height: 270px;
@@ -347,6 +351,7 @@ header {
                 background-color: #311F09;
                 border-radius: 15px;
                 align-items: center;
+                cursor: pointer;
             }
             .menu_footer_button {
                 width: 55px;
@@ -354,7 +359,9 @@ header {
                 border: 0;
                 color: #FF8A00;
                 font-weight: 600;
+                background-color: rgba(255, 138, 0, 10%);
                 cursor: pointer;
+                border-radius: 15px;
                 font-size: 0.88rem;
                 font-family: "Poppins", sans-serif;
             }
@@ -364,6 +371,7 @@ header {
                 border: 0;
                 color: #B7A28B;
                 font-weight: 600;
+                background-color: transparent;
                 cursor: pointer;
                 font-size: 1rem;
                 font-family: "Poppins", sans-serif;
@@ -372,15 +380,17 @@ header {
     }
 }
 .reserve {
-    height: 100vh;
+    height: 110vh;
     width: 99.2vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgba(255, 244, 231, 40%);
     .reserve_all {
         width: 75vw;
         display: flex;
         flex-direction: row;
+        gap: 21vw;
         .reserve_img_block {
             width: 660px;
             flex-direction: column;
@@ -388,14 +398,182 @@ header {
             .reserve_img_block1 {
                 display: flex;
                 justify-content: end;
+                img {
+                    border: 20px solid rgb(225, 195, 159, 20%);
+                    border-radius: 100px;
+                }
             }
             .reserve_img_block2 {
                 display: flex;
                 justify-content: center;
+                img {
+                    border: 46px solid rgba(225, 195, 159, 0.2);
+                    border-radius: 315px;
+                }
             }
             .reserve_img_block3 {
                 display: flex;
                 justify-content: start;
+                img {
+                    border: 20px solid rgb(225, 195, 159, 20%);
+                    border-radius: 100px;
+                }
+            }
+        }
+        .reserve_text_block {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 30%;
+            .reserve_text_main {
+                width: 100%;
+                font-weight: 700;
+                font-size: 5rem;
+                font-family: "Tinos", serif;
+                height: 11vw;
+                .reserve_text_main2 {
+                    color: #FF8A00;
+                }
+            }
+            .reserve_text_nomain {
+                width: 97%;
+                font-family: "Poppins", sans-serif;
+                color: #5C4529;
+                line-height: 200%;
+                font-size: 1.25rem;
+                height: 15vw;
+            }
+            .reserve_text_button {
+                background-color: #FF8A00;
+                border: 0;
+                width: 232px;
+                height: 74px;
+                border-radius: 162px;
+                color: #ffffff;
+                font-size: 1.25rem;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.chef {
+    width: 99.2vw;
+    height: 170vh;
+    display: flex;
+    justify-content: center;
+    .chef_all {
+        width: 75vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .chef_text_m {
+            font-weight: 700;
+            font-size: 5rem;
+            height: 25vh;
+            font-family: "Tinos", serif;
+            color: #311F09;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+        }
+        .chef_all_card {
+            display: flex;
+            flex-direction: row;
+            height: 100vh;
+            gap: 2vw;
+            .chef_card {
+                width: 20;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                gap: 2vw;
+                .chef_card_main {
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.563rem;
+                    font-weight: 600;
+                    color: #311F09;
+                }
+                .chef_card_nomain {
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.563rem;
+                    color: #A08D76;
+                }
+            }
+        }
+        .chef_button {
+            background-color: #FF8A00;
+            border: 0;
+            width: 235px;
+            height: 74px;
+            border-radius: 162px;
+            color: #ffffff;
+            font-size: 1.25rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+}
+.say {
+    width: 99.2vw;
+    height: 160vh;
+    background-image: url(../Homepage/assets/back6.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    .say_all {
+        width: 75vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .say_text_main {
+            font-weight: 700;
+            font-size: 5rem;
+            height: 25vh;
+            font-family: "Tinos", serif;
+            color: #311F09;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+        }
+        .say_text_block {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .say_text_imgs {
+                height: 34vh;
+                display: flex;
+                align-items: end;
+            }
+            .say_text_1 {
+                font-family: "Poppins", sans-serif;
+                font-size: 1.875rem;
+                font-weight: 600;
+                color: #311F09;
+            }
+            .say_text_2 {
+                font-family: "Poppins", sans-serif;
+                font-size: 1.25rem;
+                color: #5C4529;
+            }
+            .say_block_text1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .say_block_img1 {
+                    display: flex;
+                    justify-content: start;
+                }
+                .say_text_3 {
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.25rem;
+                    color: #5C4529;
+                    width: 37%;
+                }
             }
         }
     }

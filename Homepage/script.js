@@ -2,7 +2,7 @@ const users = [
     {imglogo: "./assets/eat1.svg", name: "Spaghetti", opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat mi eget auctor aliquam, diam.", imgrait:"./assets/rating.svg", sell: "$12.05", button: "Order now"},
     {imglogo: "./assets/eat2.svg", name: "Gnocchi", opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat mi eget auctor aliquam, diam.", imgrait:"./assets/rating.svg", sell: "$12.05", button: "Order now"},
     {imglogo: "./assets/eat3.svg", name: "Rovioli", opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat mi eget auctor aliquam, diam.", imgrait:"./assets/rating.svg", sell: "$12.05", button: "Order now"},
-     {imglogo: "./assets/eat4.svg", name: "Penne Alla Vodak", opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat mi eget auctor aliquam, diam.", imgrait:"./assets/rating.svg", sell: "$12.05", button: "Order now"},
+    {imglogo: "./assets/eat4.svg", name: "Penne Alla Vodak", opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat mi eget auctor aliquam, diam.", imgrait:"./assets/rating.svg", sell: "$12.05", button: "Order now"},
     {imglogo: "./assets/eat5.svg", name: "Risoto", opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat mi eget auctor aliquam, diam.", imgrait:"./assets/rating.svg", sell: "$12.05", button: "Order now"},
     {imglogo: "./assets/eat6.svg", name: "Splitza Signature", opis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat mi eget auctor aliquam, diam.", imgrait:"./assets/rating.svg", sell: "$12.05", button: "Order now"},
 
