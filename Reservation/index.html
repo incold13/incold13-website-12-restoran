@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
-   <title>Menu</title>
+   <title>Reservation</title>
 </head>
 <body>
    <header>
@@ -31,36 +31,19 @@
             </div>
         </nav>
     </header>
-    <section class="menu">
-        <div class="menu_all">
-            <div class="menu_text_main">
-                <p>Menu</p>
-            </div>
-            <div class="menu_buttons">
-                <a href=""><button>All catagory</button></a>
-                <a href=""><button>Dinner</button></a>
-                <a href=""><button>Lunch</button></a>
-                <a href=""><button>Dessert</button></a>
-                <a href=""><button>Drink</button></a>
-            </div>
-            <div class="menu_card_all_rows">
-                <div class="menu_card_one_rows" id="menu_card_one_rows">
-                    
-                </div>
-            </div>
-            <div class="menu_footer">
-                <button class="menu_footer_arrow">
-                    <img src="../Homepage/assets/arrow1.svg" alt="">
-                </button>
-                <button class="menu_footer_button">1</button>
-                <button class="menu_footer_button">2</button>
-                <button class="menu_footer_button">3</button>
-                <button class="menu_footer_button1">...</button>
-                <button class="menu_footer_arrow">
-                    <img src="../Homepage/assets/arrow2.svg" alt="">
-                </button>
-            </div>
-        </div>
+    <section class="book">
+      <div class="book_all">
+         <div class="book_img">
+            <img src="../Reservation/assets/back.png" alt="">   
+         </div>
+         <div class="book_input">
+            <p class="book_input_text">Book a table</p>
+            <input  class="book_input1" type="date" name="" placeholder="Date" id="">
+            <input  class="book_input2" type="time" name="" placeholder="Time" id="">
+            <input  class="book_input3" type="number" name="" placeholder="Party size" id="">
+            <button class="open_window_btn" id="openWindowBtn">Book now</button>
+         </div>
+      </div>
     </section>
     <footer>
         <div class="footer_all">
@@ -103,6 +86,59 @@
             <p>2022 Delizioso</p>
         </div>
     </footer>
-   <script src="java.js"></script>
+
+   <div class="window_overlay" id="windowOverlay">
+   <button class="window_close_btn" id="closeWindowBtn">&times;</button>
+   <div class="window_all">
+        <div class="window_header">
+            <div class="window_logo">
+                <img src="../Homepage/assets/footerLogo.svg" alt="logo">
+                <p>Delizi<span>oso</span></p>
+            </div>
+            <div class="window_header_btns">
+                <button class="btn_in">Sign in</button>
+                <button class="btn_up">Sign up</button>
+            </div>
+        </div>
+
+        <p class="window_title">Reservation</p>
+
+        <div class="window_timer">
+            <p>Due to limited availability, we can hold this table for you for <span id="timer">5:00</span> minutes</p>
+        </div>
+
+        <div class="window_body">
+            
+            <div class="window_block1">
+                <p class="block_title">Data order</p>
+                <div class="window_inputs_list" id="window_left_inputs"></div>
+            </div>
+            
+            <div class="window_block2">
+                <div class="window_info_card1">
+                    <p class="card_title">Reservation detail</p>
+                    <p>📅 Saturday, 28 february 2022</p>
+                    <p>🕒 04:30 pm</p>
+                    <p>👤 2 people (Standar seating)</p>
+                </div>
+                <div class="window_info_card2">
+                    <p class="card_title">Restaurant informations</p>
+                    <p class="opis">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <p class="opis">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="window_end">
+            <div class="window_checkbox">
+                <input type="checkbox" id="signup_check">
+                <label for="signup_check">Sign me up to receive dining offers and news from this restaurant by email.</label>
+            </div>
+            <button class="window_confirm_btn" id="confirmBtn">Confirm reservation</button>
+        </div>
+
+    </div>
+</div>
+    <script src="java.js"></script>
 </body>
 </html>
