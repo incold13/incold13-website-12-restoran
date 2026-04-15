@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+// font-family: "Poppins", sans-serif;
+// font-family: "Raleway", sans-serif;
+// font-family: "Tinos", serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%
+}
+header {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    nav {
+        width: 75vw;
+        height: 15vh;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 6.32vw;
+        .header_all {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6.2vw;
+            .header_logo {
+                display: flex;
+                flex-direction: row;
+                width: 6.5vw;
+                justify-content: space-between;
+                align-items: center;
+                a {
+                    text-decoration: none;
+                }
+                .header_logo_text_black {
+                    font-size: 0.87rem;
+                    font-weight: 600;
+                    color: #311F09;
+                    font-family: "Poppins", sans-serif;
+                    .header_logo_text_yellow {
+                        color: #FF8A00;
+                    }
+                }
+            }
+            .header_ul {
+                width: 44vw;
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 44vw;
+                    padding: 0;
+                    margin: 0;
+                    li {
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    a {
+                        font-family: "Poppins", sans-serif;
+                        text-decoration: none;
+                        color: #311F09;
+                        font-size: 0.87rem;
+                        transition: color 0.3s ease;
+                    }
+                    a:hover {
+                        color: #FF8A00;
+                    }
+                }
+            }
+            .header_shoplog {
+                display: flex;
+                align-items: center;
+                width: 12vw;
+                gap: 1.5vw;
+                .header_shoplog_button {
+                    width: 5.6vw;
+                    height: 5vh;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 0.87rem;
+                    border-radius: 133px;
+                    background-color: #3FA72F;
+                    color: #FFFFFF;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }   
+    }
+}
+.menu {
+    width: 99.2vw;
+    height: 190vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .menu_all {
+        width: 75vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .menu_text_main {
+            font-family: "Tinos", serif;
+            font-size: 5rem;
+            font-weight: 700;
+            color: #311F09;
+            height: 20vh;
+        }
+        .menu_buttons {
+            display: flex;
+            gap: 1.32vw;
+            align-items: start;
+            height: 14vh;
+            button {
+                width: 11.4vw;
+                height: 7.2vh;
+                background-color: rgb(208, 204, 199, 10%);
+                border-radius: 162.94px;
+                font-size: 1.25rem;
+                font-family: "Poppins", sans-serif;
+                font-weight: 600;
+                cursor: pointer;
+                color: #311F09;
+                border: none;
+                transition: 0.3s ease;
+            }
+            button:hover {
+                    background-color: #311F09;
+                    color: #FFFFFF;
+            }
+        }
+        .menu_card_all_rows {
+            display: flex;
+            flex-wrap: wrap;
+            .menu_card_one_rows {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                width: 60vw;
+                gap: 1.5vw;
+                .menu_card {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                width: 344px;
+                height: 580px;
+                border-radius: 70px;
+                background-color: rgb(208, 204, 199, 10%);
+                    .menu_img_main {
+                        width: 270px;
+                        height: 270px;
+                    }
+                    .menu_block1 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                    }
+                    .menu_block1 p {
+                        height: 4vh;
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                        font-size: 1.87rem;
+                        align-items: end;
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 600;
+                        color: #311F09;
+                    }
+                    .menu_block1 img {
+                        width: 164px;
+                        height: 5.5vh;
+                        align-items: center;
+                        display: flex;
+                    }
+                    .menu_text_nomain {
+                        font-size: 0.875rem;
+                        font-family: "Poppins", sans-serif;
+                        color: #59442B;
+                        width: 85%;
+                        height: 10vh;
+                    }
+                    .menu_sell_block {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 80%;
+                        .menu_sell_block_text {
+                            font-family: "Poppins", sans-serif;
+                            font-size: 1.563rem;
+                            font-weight: 600;
+                        }
+                        .menu_sell_block_button {
+                            font-size: 1rem;
+                            color: #FFFFFF;
+                            width: 156px;
+                            height: 55px;
+                            border: 0;
+                            border-radius: 163px;
+                            background-color: #FF8A00;
+                            font-weight: 600;
+                            cursor: pointer;
+                            font-family: "Poppins", sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+                .menu_footer {
+            width: 21.23vw;
+            height: 15vh;
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+            .menu_footer_arrow {
+                width: 55px;
+                height: 55px;
+                background-color: #311F09;
+                border-radius: 15px;
+                align-items: center;
+                cursor: pointer;
+            }
+            .menu_footer_button {
+                width: 55px;
+                height: 55px;
+                border: 0;
+                color: #FF8A00;
+                font-weight: 600;
+                background-color: rgba(255, 138, 0, 10%);
+                cursor: pointer;
+                border-radius: 15px;
+                font-size: 0.88rem;
+                font-family: "Poppins", sans-serif;
+            }
+            .menu_footer_button1 {
+                width: 55px;
+                height: 55px;
+                border: 0;
+                color: #B7A28B;
+                font-weight: 600;
+                background-color: transparent;
+                cursor: pointer;
+                font-size: 1rem;
+                font-family: "Poppins", sans-serif;
+            }
+        }
+    }
+}
